@@ -5,8 +5,13 @@ import Footer from '../Footer'
 const About = () => {
   return (
     <>
-    <Header/>
-    <Footer/>
+      <div className="main">
+        <div className="gradient" />
+      </div>
+      <header className="app w-full flex justify-center items-center flex-col">
+        <Header />
+        <Footer />
+      </header>
     </>
   )
 }
