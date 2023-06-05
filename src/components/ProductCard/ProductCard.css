@@ -1,7 +1,7 @@
 .bold-text {
     font-size: 1rem;
     font-weight: 800;
-    color: var(--black-color);
+    color: black;
     text-align: left;
   
     @media screen and (min-width: 2000px) {
@@ -16,7 +16,7 @@
   .p-text {
     font-size: 0.8rem;
     text-align: left;
-    color: var(--gray-color);
+    color: gray;
     line-height: 1.5;
   
     @media screen and (min-width: 2000px) {
@@ -26,7 +26,7 @@
 
   .p-img:hover,
   .p-img:focus{
-    background-color: #9f9d9d;
+    background-color: #D2E9E9;
     
         transform: scale(1.5) rotate(0.01deg);
         transition: 0.3s ease-in-out;

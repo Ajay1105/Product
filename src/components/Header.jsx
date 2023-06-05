@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate} from "react-router-dom"
-import { amazon} from "../assests";
+import { logo} from "../assests";
 
 const Header = () => {
 
@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <nav className="flex justify-between items-center w-full mb-8 pt-3">
-          <img src={amazon} alt="logo" className="w-40 object-contain" onClick={()=>navigate("/")} />
+          <img src={logo} alt="logo" className="h-28 object-contain" onClick={()=>navigate("/")} />
 
           <div>
             <button

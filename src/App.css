@@ -72,8 +72,16 @@
   @apply w-10 h-10 rounded-full bg-slate-500 flex justify-center items-center mx-4;
 }
 
-.social_media:hover{
-  background-color: #B0DAFF;
+.twitter:hover{
+  background-color: #1DA1F2;
+}
+
+.instagram:hover{
+  background-color: #E1306C;
+}
+
+.facebook:hover{
+  background-color: #4267B2;
 }
 
 .app {

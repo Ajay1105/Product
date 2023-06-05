@@ -6,13 +6,13 @@ const Footer = () => {
   return ( 
     <div className="app w-full flex justify-center items-center">
       <div className="flex flex-row">
-        <div className="social_media">
+        <div className="social_media twitter">
           <BsTwitter />
         </div>
-        <div className="social_media">
+        <div className="social_media instagram">
           <BsInstagram />
         </div>
-        <div className="social_media">
+        <div className="social_media facebook">
           <FaFacebookF />
         </div>
       </div>
