@@ -24,6 +24,10 @@
     }
   }
 
-  .p-img:hover{
+  .p-img:hover,
+  .p-img:focus{
     background-color: #9f9d9d;
+    
+        transform: scale(1.5) rotate(0.01deg);
+        transition: 0.3s ease-in-out;
   }
