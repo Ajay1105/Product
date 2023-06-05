@@ -4,7 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return ( 
-    <div app w-full flex justify-center items-center>
+    <div className="app w-full flex justify-center items-center">
       <div className="flex flex-row">
         <div className="social_media">
           <BsTwitter />
