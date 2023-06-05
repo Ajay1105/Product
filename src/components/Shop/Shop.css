@@ -1,0 +1,8 @@
+.head_text {
+    @apply mt-3 text-5xl font-extrabold leading-[1.15] text-black sm:text-[60px] text-center;
+}
+
+.orange_gradient {
+    @apply bg-gradient-to-r via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+}
+  

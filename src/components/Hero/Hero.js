@@ -1,5 +1,6 @@
-import { amazon, product } from "../../assests";
+import { product } from "../../assests";
 import Footer from "../Footer.jsx";
+import Header from "../Header.jsx";
 
 const Hero = () => {
   return (
@@ -8,33 +9,7 @@ const Hero = () => {
         <div className="gradient" />
       </div>
       <header className="app w-full flex justify-center items-center flex-col" >
-        <nav className="flex justify-between items-center w-full mb-8 pt-3">
-          <img src={amazon} alt="logo" className="w-40 object-contain" />
-
-          <div>
-            <button
-              type="button"
-              onClick={() => window.open("https://github.com/Ajay1105")}
-              className="black_btn mx-1"
-            >
-              About
-            </button>
-            <button
-              type="button"
-              onClick={() => window.open("https://github.com/Ajay1105")}
-              className="black_btn mx-1"
-            >
-              Shop
-            </button>
-            <button
-              type="button"
-              onClick={() => window.open("https://github.com/Ajay1105")}
-              className="black_btn mx-1"
-            >
-              Contact Us
-            </button>
-          </div>
-        </nav>
+        <Header/>
 
         <h1 className="head_text orange_gradient">Company Name</h1>
 
