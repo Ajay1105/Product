@@ -3,15 +3,15 @@ import { useNavigate } from "react-router-dom";
 
 import Header from "../Header";
 import Footer from "../Footer";
-import { motor,product } from "../../assests";
+import { motor, product } from "../../assests";
 import ProductCard from "../ProductCard/ProductCard.jsx";
 
 const About = () => {
-
   const navigate = useNavigate();
 
   return (
     <>
+
       <div className="main">
         <div className="gradient" />
       </div>
@@ -19,21 +19,24 @@ const About = () => {
         <Header />
 
         <p className="head_text italic">
-          {" "}
-          Welcome to <br />{" "}
+         
+          Welcome to <br />
           <span className="font-serif orange_gradient italic">
             Company Name
-          </span>{" "}
+          </span>
         </p>
         <p className="text-2xl font-serif italic my-4">
-          {" "}
+          
           Your Trusted Source for Air Compressors and Repairs
         </p>
 
-        <img src={motor} alt="motor" className=" h-96 rounded-md hover:outline outline-2" />
+        <img
+          src={motor}
+          alt="motor"
+          className=" h-96 rounded-md hover:outline outline-2"
+        />
 
         <p className="text-3xl font-serif italic text-center my-4">
-          {" "}
           "We are commited to provid you top-notch products and services to meet
           your customers' needs"
         </p>
@@ -52,7 +55,25 @@ const About = () => {
             key={2}
           />
         </div>
-        <button className="outline outline-2 rounded-3xl px-4 py-2 mb-4 hover:bg-[#F9ED69]" onClick={()=>navigate("/shop")}>See more</button>
+        <button
+          className="outline outline-2 rounded-3xl px-4 py-2 mb-4 hover:bg-[#F9ED69]"
+          onClick={() => navigate("/shop")}
+        >
+          See more
+        </button>
+
+        <p className="text-3xl font-serif italic text-center my-3">
+          We offer wide range of services including:{" "}
+        </p>
+        <ul className="list-disc mb-8">
+          <li className="text-lg hover:list-none hover:text-2xl ">
+            Repair work
+          </li>
+          <li className="text-lg hover:list-none hover:text-2xl ">
+            Sale of new product
+          </li>
+        </ul>
+       
         <Footer />
       </header>
     </>

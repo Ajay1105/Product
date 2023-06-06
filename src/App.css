@@ -69,7 +69,8 @@
 /* Tailwind Styles */
 
 .social_media{
-  @apply w-10 h-10 rounded-full bg-slate-500 flex justify-center items-center mx-4;
+  @apply w-10 h-10 rounded-full flex justify-center items-center mx-4;
+  background-color: #6B7280;
 }
 
 .twitter:hover{

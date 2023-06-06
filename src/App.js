@@ -7,6 +7,8 @@ import About from "./components/About/About";
 import Shop from "./components/Shop/Shop";
 import Contact from "./components/contact/Contact.jsx";
 
+
+
 function App() {
   return (
     <BrowserRouter>
