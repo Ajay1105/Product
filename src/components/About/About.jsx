@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { easeInOut, motion } from "framer-motion";
 
 import Header from "../Header";
 import Footer from "../Footer";
@@ -17,18 +18,24 @@ const About = () => {
       </div>
       <header className="app w-full flex justify-center items-center flex-col">
         <Header />
-
+        
+        <motion.div
+        initial={{ y:-50,opacity: 0 }}
+        animate={{ y:0,opacity:1 }}
+        transition={{duration:2,ease:easeInOut}}
+        viewport={{ once: true }}
+        >
         <p className="head_text italic">
-         
-          Welcome to <br />
+                  Welcome to <br />
           <span className="font-serif orange_gradient italic">
             Company Name
           </span>
-        </p>
-        <p className="text-2xl font-serif italic my-4">
+          </p>
+          <p className="text-2xl font-serif italic my-4">
           
           Your Trusted Source for Air Compressors and Repairs
-        </p>
+          </p>
+          </motion.div>
 
         <img
           src={motor}
